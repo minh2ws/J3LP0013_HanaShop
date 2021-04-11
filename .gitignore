@@ -10,6 +10,6 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
-**/src/java/minhtn/google
+**/src/java/minhtn/google/Constants.java
 
 # End of https://www.toptal.com/developers/gitignore/api/netbeans
