@@ -1,0 +1,30 @@
+.bg-custom {
+    background-image: radial-gradient(circle, rgb(255, 136, 0), rgba(217, 255, 0, 0.924), rgb(1, 255, 221));
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.navbar-brand {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 15px;
+}
+
+.welcome-user {
+    font-weight: bold;
+    color: white;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.card-footer {
+    background-color: white !important;
+}

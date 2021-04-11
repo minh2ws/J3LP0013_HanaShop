@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Login Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"  href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet"  href="assets/css/customize.css">
+    </head>
+    <body>
+        <div class="container-fluid h-100 bg-custom">
+			<div class="row h-100 justify-content-center align-items-center">
+                <div class="card col-10 col-md-8 col-lg-6 p-5">
+                    <h1 class="text-center">Sign in</h1>
+                    <form action="DispatchServlet" method="POST" class="form-group">
+                        <label>Username</label> 
+                        <input type="text" name="txtUsername" value="" class="form-control"/> <br/>
+                        <label>Password</label> 
+                        <input type="password" name="txtPassword" value="" class="form-control"/> <br/>
+                        <div class="text-center">
+                            <input type="submit" value="Login" name="btAction" class="btn btn-primary px-5 my-3"/>
+                        </div>
+                    </form>
+                    <a href="https://accounts.google.com/o/oauth2/auth?scope=email&redirect_uri=http://localhost:8084/J3LP0013_HanaShop/LoginGoogleServlet&response_type=code&client_id=257673653430-7og13jgi4hhqlfk0hsi505jvvjv8pt5u.apps.googleusercontent.com&approval_prompt=force">
+                        Login With Google
+                    </a>
+                    Want to use as guest? <a href="home.html">Home page</a> 
+                </div>
+            </div>
+        </div>
+        <script src="assets/js/bootstrap.min.js"></script>
+    </body>
+</html>

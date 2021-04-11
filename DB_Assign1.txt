@@ -1,0 +1,27 @@
+Account
+- userID
+- password
+- role
+- fullname
+Category
+- cateId
+- categoryName
+Product
+- productId
+- name
+- status
+- quantity
+- image
+- description
+- price
+- createOfDate
+- updateOfDate
+- cateId
+Order
+- IdOrder
+- BuyDate
+- Total
+OrderDetail
+- IdOrder
+- IdItem
+- QuantityItem
